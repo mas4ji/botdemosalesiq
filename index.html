@@ -16,3 +16,54 @@
     <script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq38e1f2920c0ce9aef5f1ee9b729a19cf" defer></script>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        /* Styling untuk body */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Teks di tengah */
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling untuk judul */
+        h1 {
+            font-size: 2em;
+        }
+
+        /* Styling untuk paragraf */
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Styling untuk mengubah ukuran widget chat */
+        #zsiqscript {
+            transform: scale(1.5); /* Perbesar ukuran widget */
+            transform-origin: center center; /* Agar widget diperbesar dari tengah */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>DEMO BOT CHAT FAZRIANSYAH</h1>
+    <p>This is a basic HTML structure with Zoho SalesIQ integrated.</p>
+
+    <script>
+        window.$zoho = window.$zoho || {};
+        $zoho.salesiq = $zoho.salesiq || { ready: function() {} };
+    </script>
+    <script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq38e1f2920c0ce9aef5f1ee9b729a19cf" defer></script>
+</body>
+</html>
+
